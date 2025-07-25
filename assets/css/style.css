@@ -1,0 +1,9 @@
+header {
+    background-color: #17abb3;
+}
+
+/*ne fonctionne pas à voir pourquoi*/
+body {
+    width: 1160px;
+    align-content: center;
+}
