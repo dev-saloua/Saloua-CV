@@ -5,102 +5,168 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Saloua Hafidi</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="./assets/Images/cv.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/Images/cv.png" type="image/x-icon">
 </head>
+
 <body>
+
     <div class="content-wrapper">
     <header>
-        <h1>Saloua Hafidi</h1>
-        <img src="" alt="photo de profil">
-        <h2>Développeur Web et Web Mobile</h2>
-            <div class="contact">
-                <a href="mailto:saloua.h95@gmail.com"><img src="Images/mail.png" alt="email">saloua.h95@gmail.com</a>
-                <a href="https://www.google.fr/maps/place/1+Rue+Pasteur,+75011+Paris/@48.861845,2.3719941,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66dfbc068cc57:0x96548af86f539e07!8m2!3d48.861845!4d2.374569!16s%2Fg%2F11m5y8y3p7?entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D"><img src="Images/home.png" alt="maison">1 rue pasteur 75011 Paris</a>
-                <a href="tel:0606060606"><img src="Images/phone.png" alt="telephone">0606060606</a>
-                <p><img src="Images/car.png" alt="voiture">Permis B</p>
-            </div>
+        <a href="./assets/Images/photo-cv.jpg"><img class="profil" src="./assets/Images/photo-cv.jpg" alt="photo de profil"></a>
+        <div class="title">
+            <h1>Saloua Hafidi</h1>
+            <h2>Développeur Web et Web Mobile</h2>
+                <div class="contact">
+                    <div class="column-1">
+                    <a href="mailto:saloua.h95@gmail.com"><img src="./assets/Images/mail.png" alt="email"> saloua.h95@gmail.com</a>
+                    <a href="https://www.google.fr/maps/place/1+Rue+Pasteur,+75011+Paris/@48.861845,2.3719941,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66dfbc068cc57:0x96548af86f539e07!8m2!3d48.861845!4d2.374569!16s%2Fg%2F11m5y8y3p7?entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D"><img src="./assets/Images/home.png" alt="maison"> 1 rue pasteur 75011 Paris</a>
+                    </div>
+                    <div class="column-2">
+                    <a href="tel:0606060606"><img src="./assets/Images/phone.png" alt="telephone"> 0606060606</a>
+                    <div><img src="./assets/Images/car.png" alt="voiture"> Permis B</div>
+                    </div>
+                </div>
+        </div>
     </header>
 
-    <main>
-        <section class="section-left">
-            <h2>Compétences</h2>
-            <hr>
-            <div class="code">
-            <ul >
-                <li><strong>HTML</strong></li>
-                <li><strong>CSS</strong></li>
-                <li><strong>Javascript</strong></li> 
-                <li><strong>PHP</strong></li>
-            </ul>
-            <ul class="stars">
-                <li>★★★★☆</li>
-                <li>★★★★☆</li>
-                <li>★★☆☆☆</li>
-                <li>★☆☆☆☆</li>
-            </ul>
-            </div>
-            <h2>Langues</h2>
-            <hr>
-            <ul>
-                <li><strong>Français</strong> Langue maternelle</li>
-                <li><strong>Arabe</strong> Langue maternelle</li>
-                <li><strong>Anglais</strong> Courant</li>
-                <li><strong>Espagnol</strong> Intermédiaire</li>
-            </ul>
-            <h2>Qualités</h2>
-            <hr>
-            <ul>
-                <li>Esprit d'équipe</li>
-                <li>Autonome</li>
-                <li>Rigueur</li>
-                <li>Organisation</li>
-                <li>Curiosité</li>
-                <li>Créativité</li>
-            </ul>
-            <h2>Centres d'intérêt</h2>
-            <hr>
-            <ul>
-                <li>Voyages</li>
-                <li>Sport : boxe, crossfit</li>
-                <li>Visites culturelles : musées, expositions</li>
-            </ul>
-        </section>
+    <main class="container">
 
-        <section class="section-right">
-            <h2>Profil</h2>
+        <div class="section-left">
+            <h3>Compétences</h3>
             <hr>
-                <div>
+            <div class="align">
+                <div class="code">
+                    <ul >
+                        <li class="bold">HTML</li>
+                        <li  class="bold">CSS</li>
+                        <li  class="bold">Javascript</li> 
+                        <li  class="bold">PHP</li>
+                    </ul>
+                </div>
+                <div class="stars">
+                    <ul>
+                        <li>★★★★☆</li>
+                        <li>★★★★☆</li>
+                        <li>★★☆☆☆</li>
+                        <li>★☆☆☆☆</li>
+                    </ul>
+                </div>
+            </div>
+            <h3>Langues</h3>
+            <hr>
+            <div class="align-2">
+                <div class="languages">
+                    <ul>
+                        <li  class="bold">Français</li>
+                        <li  class="bold">Arabe</li>
+                        <li  class="bold">Anglais</li>
+                        <li  class="bold">Espagnol</li>
+                    </ul>
+                </div>
+                <div class="level">
+                    <ul>
+                        <li>Langue maternelle</li>
+                        <li>Langue maternelle</li>
+                        <li>Courant</li>
+                        <li>Intermédiaire</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="square">
+            <h3>Qualités</h3>
+            <hr>
+                <ol>
+                    <li class="blue">Esprit d'équipe</li>
+                    <li class="blue">Autonome</li>
+                    <li class="blue">Rigueur</li>
+                    <li class="blue">Organisation</li>
+                    <li class="blue">Curiosité</li>
+                    <li class="blue">Créativité</li>
+                </ol>
+
+            <h3>Centres d'intérêt</h3>
+            <hr>
+                <ol>
+                    <li class="blue">Voyages</li>
+                    <li class="blue">Sport : boxe, crossfit</li>
+                    <li class="blue">Visites culturelles : musées, expositions</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="section-right">
+            <h3>Profil</h3>
+            <hr>
+            <div class="indent">
                 <p>Juriste de formation, et ancienne manager d'équipe, j'ai entrepris une reconverison professionnelle motivée par un intérêt croissant pour le numérique. Attirée par les enjeux du digital, j'ai découvert dans le développement web un domaine alliant rigueur, logique et créativité, ce qui correspond pleinement à mes aspirations. Afin de me professionnaliser, j'ai suivi une formation dédiée au développement web et mobile.</p>
-                </div>
-                <div>
                 <p>Sérieuse, rigoureuse et organisée, je fais preuve d'autonomie tout en appréciant le travail en équipe. Curieuse et investie, je m'attache à apprendre en continu et à m'adapter aux évolutions technologiques.</p>
-                </div>
-            <h2>Formations</h2>
+            </div>
+
+            <h3>Formations</h3>
             <hr>
-            <ul>
-                <li><strong>Titre professionnel Développeur Web et Web Mobile</strong> <br><em>Centre Européen de Formation</em> <span>2025/2026</span></li>
-                <li><strong>Master 1 Droit Privé</strong> <br><em>Université Paris X Nanterre</em> <span>2014/2015</span></li>
-                <li><strong>Baccalauréat ES</strong> <br><em>Lycée Van Gogh Ermont</em> <span>2009/2010</span></li>
-            </ul>
-            <h2>Stages</h2>
+                <ul class="marge">
+                    <div class="survol">
+                    <li  class="bold">Titre professionnel Développeur Web et Web Mobile</li>
+                        <span class="period">2025/2026</span>
+                        <span class="italic">Centre Européen de Formation</span>
+                    </div>
+                    <div class="survol">
+                    <li class="bold">Master 1 Droit Privé</li>
+                        <span class="period">2014/2015</span>
+                        <span class="italic">Université Paris X Nanterre</span>
+                    </div>
+                    <div class="survol">
+                    <li class="bold">Baccalauréat ES</li>
+                        <span class="period">2009/2010</span>
+                        <span class="italic">Lycée Van Gogh Ermont</span>
+                    </div>
+                </ul>
+
+            <h3>Stages</h3>
             <hr>
-            <ul>
-                <li><strong>Assistante juridique</strong> <br><em>SEH Avocat</em> <span>2015/2016</span></li>
-                <li><strong>Soutien scolaire</strong> <br><em>Mairie d'Argenteuil</em> <span>2014/2015</span></li>
-            </ul>
-            <h2>Expérience professionnelle</h2>
+                <ul class="marge">
+                    <div class="survol">
+                    <li class="bold">Assistante juridique</li>
+                        <span class="period">2015/2016</span>
+                        <span class="italic">SEH Avocat</span>
+                    </div>
+                    <div class="survol">
+                    <li class="bold">Soutien scolaire</li>
+                        <span class="period">2014/2015</span>
+                        <span class="italic">Mairie d'Argenteuil</span>
+                    </div>
+                </ul>
+
+            <h3>Expérience professionnelle</h3>
             <hr>
-            <ul>
-                <li><strong>Manager - Chef d'équipe</strong> <br><em>Docaposte BPO</em> <span>2019/2025</span></li>
-                <li><strong>Juriste DALO</strong> <br><em>Docaposte BPO</em> <span>2016/2019</span></li>
-            </ul>
-        </section>
-    </main>
+                <ul class="marge">
+                    <div class="survol">
+                    <li class="bold">Manager - Chef d'équipe</li>
+                        <span class="period">2019/2025</span>
+                        <span class="italic">Docaposte BPO</span>
+                    </div>
+                    <div class="survol">
+                    <li  class="bold">Juriste DALO</li> 
+                        <span class="period">2016/2019</span>
+                        <span class="italic">Docaposte BPO</span>
+                    </div>
+                </ul>
+            </div>
+    
+        </main>
     
     <footer>
-        <img src="Images/linkedin.png" alt="logo LinkedIn">
-        <img src="Images/github.png" alt="logo GitHub">
-        <p>Mis à jour le 01/08/2025</p>
+        <div class="socials">
+            <a href="http://linkedin.com/in/saloua-hafidi-983853108"><img src="./assets/Images/linkedin.png" alt="logo LinkedIn"></a>
+            <a href="https://github.com/dev-saloua"><img src="./assets/Images/github.png" alt="logo GitHub"></a>
+        </div>
+        <p>Mis à jour le 29/07/2025</p>
+        
+        
     </footer>
     </div>
+
 </body>
 </html>
